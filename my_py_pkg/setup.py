@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "first_node=my_py_pkg.my_first_node:main",
             "first_oop_node=my_py_pkg.my_first_oop_node:main",
-            "first_oop_node=my_py_pkg.my_first_publisher:main"
+            "first_oop_node=my_py_pkg.my_first_publisher:main",
+            "first_oop_node=my_py_pkg.my_first_subscriber:main"
 
         ],
     },
