@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "add_two_int_server_node=my_service_pkg.my_first_service_server:main"
+            "add_two_int_server_node=my_service_pkg.my_first_service_server:main",
+            "add_two_int_client_no_oop_node=my_service_pkg.service_client_no_oop:main"
         ],
     },
 )
