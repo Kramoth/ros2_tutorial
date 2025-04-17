@@ -23,7 +23,8 @@ setup(
             "first_node=my_py_pkg.my_first_node:main",
             "first_oop_node=my_py_pkg.my_first_oop_node:main",
             "first_pub_node=my_py_pkg.my_first_publisher:main",
-            "first_sub_node=my_py_pkg.my_first_subscriber:main"
+            "first_sub_node=my_py_pkg.my_first_subscriber:main",
+            "second_pub_node=my_py_pkg.my_second_publisher:main"
 
         ],
     },
